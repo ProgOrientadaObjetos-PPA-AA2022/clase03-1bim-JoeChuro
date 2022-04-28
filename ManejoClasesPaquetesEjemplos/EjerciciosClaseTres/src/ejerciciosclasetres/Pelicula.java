@@ -11,5 +11,5 @@ package ejerciciosclasetres;
  * @author reroes
  */
 public class Pelicula {
-    int version;
+    public int version;
 }

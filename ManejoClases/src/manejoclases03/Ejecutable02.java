@@ -17,9 +17,9 @@ public class Ejecutable02 {
         Hospital h2 = new Hospital();
         Hospital h3 = new Hospital();
         
-        h1.establecerNombre("Vaca Ortíz");
-        h2.establecerNombre("Militar");
-        h3.establecerNombre("Manuel IM");
+        h1.establecerNombre("Vaca Ortíz Dos");
+        h2.establecerNombre("Militar Dos");
+        h3.establecerNombre("Manuel IM DOS");
         
         System.out.printf("%s\n", h1.obtenerNombre());
         

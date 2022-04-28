@@ -20,6 +20,13 @@ public class Ejecutable {
         System.out.printf("%s - %d - %.2f\n", hospital.nombre,
                 hospital.numeroCamas, hospital.presupuesto);
         
+        Hospital hospital2 = new Hospital();
+        hospital2.nombre= "Clinica San Jose";
+        hospital2.numeroCamas= 50;
+        hospital2.presupuesto= 55000.45;
+        
+        System.out.printf("%s - %d - %.2f\n", hospital2.nombre,
+                hospital2.numeroCamas, hospital2.presupuesto);
         // System.out.println(hospital.nombre + "-" + hospital.numeroCamas);
     }
 }
